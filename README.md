@@ -20,4 +20,7 @@ ML:
 - построение датасета для гео визуализации ([датасет рандомных адресов М и МО](https://github.com/bespardon/rosatom-hack-0821/blob/main/random%20geo%20msk%20mo.csv.zip))
 
 
+**Презентация проекта**
+[Презентация](https://docs.google.com/presentation/d/1_6uaNfXRILrk5DIodcMsqVBX4ahRnlTvFJP5GA5vlHw/edit#slide=id.ge88a941de9_0_155)
 
+[Видео](https://youtu.be/NC3nFAPvQ9w?t=4251)
