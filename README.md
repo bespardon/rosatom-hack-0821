@@ -21,6 +21,7 @@ ML:
 
 
 **Презентация проекта**
+
 [Презентация](https://docs.google.com/presentation/d/1_6uaNfXRILrk5DIodcMsqVBX4ahRnlTvFJP5GA5vlHw/edit#slide=id.ge88a941de9_0_155)
 
 [Видео](https://youtu.be/NC3nFAPvQ9w?t=4251)
