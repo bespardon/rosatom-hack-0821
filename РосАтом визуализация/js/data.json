@@ -1,0 +1,265 @@
+{
+    "chart": {
+      "enabled": true,
+      "type": "sunburst",
+      "title": {
+        "enabled": true,
+        "text": "Sales Plan and Revenues for the Month"
+      },
+      "tooltip": {
+        "enabled": true,
+        "format": "Revenue: ${%Value}{scale:(1000)(1)|(k)}"
+      },
+      "credits": {
+        "enabled": false
+      },
+      "selectRectangleMarqueeFill": {
+        "color": "#d3d3d3",
+        "opacity": 0.4
+      },
+      "treeData": {
+        "rootMapping": {},
+        "children": [
+          {
+            "treeDataItemData": {
+              "id": "01",
+              "product": "Fruits",
+              "value": 692000
+            },
+            "children": [
+              {
+                "treeDataItemData": {
+                  "id": "11",
+                  "product": "Apples",
+                  "value": 138000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "12",
+                  "product": "Oranges",
+                  "value": 22000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "13",
+                  "product": "Bananas",
+                  "value": 88000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "14",
+                  "product": "Melons",
+                  "value": 77000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "15",
+                  "product": "Apricots",
+                  "value": 48000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "16",
+                  "product": "Plums",
+                  "value": 48000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "17",
+                  "product": "Pineapples",
+                  "value": 41000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "18",
+                  "product": "Cherries",
+                  "value": 39000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "19",
+                  "product": "Tangerines",
+                  "value": 32000
+                }
+              }
+            ]
+          },
+          {
+            "treeDataItemData": {
+              "id": "02",
+              "product": "Vegetables",
+              "value": 597000
+            },
+            "children": [
+              {
+                "treeDataItemData": {
+                  "id": "21",
+                  "product": "Potato",
+                  "value": 189000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "22",
+                  "product": "Eggplants",
+                  "value": 94000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "23",
+                  "product": "Tomatoes",
+                  "value": 63000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "24",
+                  "product": "Cucumbers",
+                  "value": 43000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "25",
+                  "product": "Cabbage",
+                  "value": 30000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "26",
+                  "product": "Carrot",
+                  "value": 29000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "27",
+                  "product": "Squash",
+                  "value": 26000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "28",
+                  "product": "Capsicums",
+                  "value": 23000
+                }
+              }
+            ]
+          },
+          {
+            "treeDataItemData": {
+              "id": "03",
+              "product": "Dairy",
+              "value": 1359000
+            },
+            "children": [
+              {
+                "treeDataItemData": {
+                  "id": "31",
+                  "product": "Milk",
+                  "value": 154000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "32",
+                  "product": "Curd",
+                  "value": 142000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "33",
+                  "product": "Cheese",
+                  "value": 43000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "34",
+                  "product": "Yogurt",
+                  "value": 38000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "35",
+                  "product": "Kefir",
+                  "value": 32000
+                }
+              }
+            ]
+          },
+          {
+            "treeDataItemData": {
+              "id": "04",
+              "product": "Meat",
+              "value": 596000
+            },
+            "children": [
+              {
+                "treeDataItemData": {
+                  "id": "41",
+                  "product": "Mutton",
+                  "value": 154000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "42",
+                  "product": "Beef",
+                  "value": 142000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "43",
+                  "product": "Pork",
+                  "value": 43000
+                }
+              },
+              {
+                "treeDataItemData": {
+                  "id": "44",
+                  "product": "Veal",
+                  "value": 38000
+                }
+              }
+            ]
+          }
+        ],
+        "index": [
+          "id"
+        ]
+      },
+      "normal": {
+        "labels": {
+          "zIndex": 32,
+          "enabled": true,
+          "format": "{%Product}"
+        }
+      },
+      "calculationMode": "parent-dependent",
+      "leaves": {
+        "enabled": null,
+        "hovered": {
+          "labels": {}
+        },
+        "selected": {
+          "labels": {}
+        }
+      }
+    }
+  }
+                  
