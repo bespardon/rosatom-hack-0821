@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#container {
+    position: absolute;
+    margin-left: 30%;
+    width: 700px;
+    height: 700px;
+  }
+
+  .wrap_link {
+    width: 200px;
+    text-align: center;
+    background-color: rgb(47, 95, 168);
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin-top: 25px;
+}

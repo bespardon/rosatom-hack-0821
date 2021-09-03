@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Демонстрация загрузки отделов</title>
+  <script src="./js/anychart-core.min.js"></script>
+  <script src="./js/anychart-graph.min.js"></script>
+  <script src="./js/anychart-data-adapter.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper-list">
+    <h2 class="title">Расшифровка визуализации</h2>
+    <dix class="text">Отделы ЖКХ</dix>
+    <ul class="wrap">
+      <li class="wrap-item">Бытовое обслуживание</li>
+      <li class="wrap-item">Жилищное хозяйство</li>
+      <li class="wrap-item">Ресурсоснабжение</li>
+      <li class="wrap-item">Благоустройство </li>
+    </ul>
+
+    <div class="task">
+      <div class="task-text">Цветовое обозначение загрузки <br>сотрудников</div>
+      <ul class="task-wrap">
+        <li class="task-wrap__item">Сотрудник не загружен <div class="bg-color_green"></div></li>
+        <li class="task-wrap__item">Сотрудник частично загружен <div class="bg-color"></div></li>
+        <li class="task-wrap__item">Сотрудник полностью загружен <div class="bg-color_red"></div></li>
+      </ul>
+    </div>
+    <h3>Количество сотрудников: <span style="font-weight: 300;">93 человека<span></h3>
+      <br><a href="./time/time.html" class="btn"> Измение загрузки отдела в 14.00</a>
+  </div>
+  <div id="container"></div>
+  <style>
+    .btn {
+      width: 200px;
+    text-align: center;
+    background-color: rgb(47, 95, 168);
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin-top: 25px;
+    font-size: 18px;
+    }
+  </style>
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(233, 240, 247);
+  }
+  #container {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0;
+      padding: 0;
+      width: 75%;
+      height: 100%;
+      color: black;
+    }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+  }
+
+  .title {
+    margin-left: 1.5%;
+  }
+
+  .text {
+    font-size: 22px;
+    width: 20%;
+    margin-left: 5%;
+    color: rgb(88, 42, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+  .wrap {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid rgb(83, 2, 2);
+
+    &-item {
+        display: flex;
+        font-size: 20px;
+
+        .color {
+            margin-left: 25px;
+            width: 50px;
+            height: 20px;
+            background-color: rgb(64, 107, 155);
+            border-radius: 2px;
+        }
+
+        .color_gold {
+            margin-left: 39px;
+            width: 50px;
+            height: 20px;
+            background-color: gold;
+            border-radius: 2px;
+        }
+
+        .color_orange {
+            margin-left: 64px;
+            width: 50px;
+            height: 20px;
+            background-color: orange;
+            border-radius: 2px;
+        }
+
+        .color_blue {
+            margin-left: 80px;
+            width: 50px;
+            height: 20px;
+            background-color: rgb(125, 197, 255);
+            border-radius: 2px;
+        }
+    }
+}
+
+.task {
+    .task-text {
+        width: 20%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        font-size: 23px;
+        color: rgb(88, 42, 3);
+        margin-top: 20px;
+        font-weight: 600;
+    }
+
+    &-wrap {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        border-bottom: 1px solid rgb(83, 2, 2);
+
+        &__item {
+            display: flex;
+            font-size: 20px;
+
+            .bg-color_green {
+                margin-left: 90px;
+                width: 50px;
+                height: 20px;
+                background-color: green;
+                border-radius: 2px;
+            }
+
+            .bg-color_red {
+                margin-left: 15px;
+                width: 50px;
+                height: 20px;
+                background-color: red;
+                border-radius: 2px;
+            }
+
+            .bg-color {
+                margin-left: 31px;
+                width: 50px;
+                height: 20px;
+                background-color: rgb(247, 214, 214);
+                border-radius: 2px;
+            }
+        }
+    }
+}

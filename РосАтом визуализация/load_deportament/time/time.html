@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Демонстрация загрузки отделов</title>
+  <script src="./js/anychart-core.min.js"></script>
+  <script src="./js/anychart-graph.min.js"></script>
+  <script src="./js/anychart-data-adapter.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper-list">
+    <h2 class="title">Расшифровка визуализации</h2>
+    <div class="task">
+      <div class="task-text">Цветовое обозначение загрузки <br>сотрудников</div>
+      <ul class="task-wrap">
+        <li class="task-wrap__item">Сотрудник не загружен <div class="bg-color_green"></div></li>
+        <li class="task-wrap__item">Сотрудник частично загружен <div class="bg-color"></div></li>
+        <li class="task-wrap__item">Сотрудник полностью загружен <div class="bg-color_red"></div></li>
+      </ul>
+    </div>
+    <h3>Количество сотрудников в отделе: <span style="font-weight: 300;">7 человека<span></h3>
+  </div>
+  <div id="container"></div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
